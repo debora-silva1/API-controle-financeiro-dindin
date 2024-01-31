@@ -39,6 +39,5 @@ values
 ('Saude'),
 ('Transporte'),
 ('Salário'),
-('Salário'),
 ('Outras receitas'),
 ('Outras despesas');

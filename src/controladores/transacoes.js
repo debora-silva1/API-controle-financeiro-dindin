@@ -29,13 +29,13 @@ const cadastrarTransacao = async (req, res) => {
 
 
 const detalharTransacao = async (req, res) => {
-    const { id } = req.params
+    // const { id } = req.params
 
-    const { rowCount } = await pool.query(`SELECT FROM transacoes WHERE id = $1`, [id])
+    // const { rowCount } = await pool.query(`SELECT FROM transacoes WHERE id = $1`, [id])
 
-    if (rowCount === 0) {
-        return res.status(400).json({ mensagem:})
-    }
+    // if (rowCount === 0) {
+    //     return res.status(400).json({ mensagem:})
+    // }
 }
 
 const atualizarTransacao = async (req, res) => {

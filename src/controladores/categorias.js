@@ -1,0 +1,3 @@
+const listarCategorias = (req, res) => {
+
+};
